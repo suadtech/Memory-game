@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Match Game</title>
-    <link rel="stylesheet" herf="styles.css">
+    <link rel="css/stylesheet" herf="css/styles.css">
 </head>
 <body>
     <div id ="mainMenu">
@@ -14,5 +14,17 @@
         <P>Follow the sequence of colors and sounds!</P>
         <button onclick="startGame()">Start Game</button>
     </div>
+    <div id="gameArea" class="hidden">
+        <h2Level: <span id="level1">1</span></h2>
+        <div id="patternDisplay"></div>
+        <div id="gameButtons">
+            <button class="game-btn" data-color="red"></button>
+            <button class="game-btn" data-color="blue"></button>
+            <button class="game-btn" data-color="green"></button>
+            <button class="game-btn" data-color="yellow"></button>
+         </div>
+         <h2 id="feedback"></h2>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

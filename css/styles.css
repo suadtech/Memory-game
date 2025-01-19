@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+ #mainMenu {
+    margin-top: 50px;
+ }
+ #gameArea {
+    display: none;
+    margin-top: 20px;
+ }
+ #gameButtons .game-btn[data-color="red"]{
+    background-color: red;
+ }
+ #gameButtons .game-btn[data-color="blue"]{
+    background-color: blue;
+ }
+ #gameButtons .game-btn[data-color="green"]{
+    background-color:green;
+ }
+ #gameButtons .game-btn[data-color="yellow"]{
+    background-color: yellow;
+ }
+ #patternDisplay div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+ }
+ .hedden {
+    display: none;
+ }
+ .feedback-correct {
+    color: green;
+ }
+ .feedback-incorrect {
+    color: red;
+ }
