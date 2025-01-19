@@ -6,11 +6,16 @@ const colors = ['red','blue','green','yellow'];
 const feedback = document.getElementById('feedback');
 const gameButtons = document.querySelectorAll('.game-btn');
 
-//   function to play sound 
+// Function to play sound
 function playFeedbackSound(outcome) {
-  const audio =new Audio(`sounds/${outcome}.mb3`)
+  const audio = new Audio(`sounds/${outcome}.mp3`);
+  // stop any currenty playing audio
+  audio.onended = () => {};
+  audio.volume = 0.3;
   audio.play();
+
 }
+
 
 // Start Game
 function startGame() {
@@ -57,9 +62,7 @@ gameButtons.forEach(button => {
   });
 });
 
-// delay Feedback
-setTimeout(() => playFeedbackSound( 'correct'), 500);
- 
+
 // Check Player Sequence
 function checkPlayerSequence() {
   const currentStep = playerSequence.length - 1;
