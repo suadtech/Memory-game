@@ -14,6 +14,11 @@ function playFeedbackSound(outcome) {
   audio.volume = 0.3;
   audio.play();
 
+  //stop the audio after 1second
+  setTimeout(() => {
+    audio.pause();
+    AudioDestinationNode.currentTime = 80;
+  },1000);
 }
 
 
