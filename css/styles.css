@@ -1,14 +1,19 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: rgb(243, 248, 235);
 }
- #mainMenu {
-    margin-top: 50px;
+ .hedden{
+   display: none;
  }
- #gameArea {
-    display: none;
-    margin-top: 20px;
+ 
+ .game-btn {
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
  }
  #gameButtons .game-btn[data-color="red"]{
     background-color: red;
@@ -22,19 +27,8 @@ body{
  #gameButtons .game-btn[data-color="yellow"]{
     background-color: yellow;
  }
- #patternDisplay div {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    margin: 10px;
-    border-radius: 50%;
+ .flash {
+   opacity: 0.5;
  }
- .hedden {
-    display: none;
- }
- .feedback-correct {
-    color: green;
- }
- .feedback-incorrect {
-    color: red;
- }
+
+ 
