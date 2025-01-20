@@ -1,34 +1,38 @@
+
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: rgb(243, 248, 235);
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   background-color: rgb(243, 248, 235);
 }
- .hedden{
-   display: none;
- }
- 
- .game-btn {
-   width: 100px;
-   height: 100px;
-   margin: 10px;
-   border: none;
-   border-radius: 50%;
-   cursor: pointer;
- }
- #gameButtons .game-btn[data-color="red"]{
-    background-color: red;
- }
- #gameButtons .game-btn[data-color="blue"]{
-    background-color: blue;
- }
- #gameButtons .game-btn[data-color="green"]{
-    background-color:green;
- }
- #gameButtons .game-btn[data-color="yellow"]{
-    background-color: yellow;
- }
- .flash {
-   opacity: 0.5;
- }
+.hedden{
+  display: none;
+}
+
+.game-btn {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#gameButtons .game-btn[data-color="red"]{
+   background-color: red;
+}
+#gameButtons .game-btn[data-color="blue"]{
+   background-color: blue;
+}
+#gameButtons .game-btn[data-color="green"]{
+   background-color:green;
+}
+#gameButtons .game-btn[data-color="yellow"]{
+   background-color: yellow;
+}
+.flash {
+  opacity: 0.5;
+}
+
+
 
  
