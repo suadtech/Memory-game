@@ -91,5 +91,3 @@ function checkPlayerSequence() {
     }, 1000);
   }
 }
-
-
